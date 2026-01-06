@@ -1,0 +1,32 @@
+# Environnements Python
+.venv/
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+
+# Fichiers locaux de données
+data/contacts.csv
+
+# IDE et OS
+.vscode/
+.idea/
+*.swo
+*.swp
+.DS_Store
+Thumbs.db
+
+# Build / distribution
+dist/
+build/
+
+# Logs
+*.log
+
+# Secrets
+.env
+
+# Node
+node_modules/
