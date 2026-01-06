@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480">
+  <rect width="100%" height="100%" fill="#eef2ff"/>
+  <g transform="translate(40,60)">
+    <rect x="0" y="0" width="200" height="120" fill="#c7d2fe" rx="8"/>
+    <rect x="220" y="20" width="140" height="80" fill="#a78bfa" rx="6"/>
+    <rect x="380" y="40" width="320" height="60" fill="#7c3aed" rx="6"/>
+    <text x="0" y="160" fill="#3730a3" font-family="Arial" font-size="20">Dashboard Power BI</text>
+  </g>
+</svg>

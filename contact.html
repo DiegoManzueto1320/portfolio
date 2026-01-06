@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Contact — Diego Manzueto</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <header class="header">
+    <h1>Me contacter</h1>
+    <nav>
+      <a href="index.php">Accueil</a>
+    </nav>
+  </header>
+
+  <section class="contact-section contact-layout">
+    <div class="contact-image">
+      <picture>
+        <img src="assets/images/imageprofil.png" alt="Diego Manzueto - Contact" class="profile-img">
+      </picture>
+    </div>
+
+    <div class="contact-content">
+      <div class="contact-intro">
+        <h2>Parlons de votre projet</h2>
+        <p>Vous avez une idée, un besoin en data ou en développement ? Je serais ravi d'en discuter avec vous. Remplissez le formulaire ci-dessous et je vous répondrai rapidement.</p>
+      </div>
+
+      <form id="contact-form" class="contact-form" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Nom complet <span class="required" aria-label="requis">*</span></label>
+            <input id="name" name="name" type="text" placeholder="Jean Dupont" minlength="2" maxlength="100" required aria-required="true">
+            <span class="form-error" id="name-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email <span class="required" aria-label="requis">*</span></label>
+            <input id="email" name="email" type="email" placeholder="jean@example.com" maxlength="100" required aria-required="true">
+            <span class="form-error" id="email-error"></span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Objet <span class="required" aria-label="requis">*</span></label>
+          <input id="subject" name="subject" type="text" maxlength="150" placeholder="Objet de votre demande" required aria-required="true">
+          <span class="form-error" id="subject-error"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message <span class="required" aria-label="requis">*</span></label>
+          <textarea id="message" name="message" rows="6" placeholder="Décrivez votre demande..." minlength="10" maxlength="2000" required aria-required="true"></textarea>
+          <span class="char-count"><span id="char-count">0</span>/2000</span>
+          <span class="form-error" id="message-error"></span>
+        </div>
+
+        <div class="form-group form-checkbox">
+          <input id="privacy" name="privacy" type="checkbox" required aria-required="true">
+          <label for="privacy" class="checkbox-label">J'accepte que mes données soient enregistrées pour traiter ma demande <span class="required" aria-label="requis">*</span></label>
+          <span class="form-error" id="privacy-error"></span>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn">Envoyer mon message</button>
+        </div>
+
+        <div id="contact-notice" class="notice" role="alert" aria-live="polite" aria-atomic="true"></div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 – Diego Manzueto</p>
+  </footer>
+</body>
+</html>

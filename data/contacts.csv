@@ -1,0 +1,4 @@
+date,name,email,category,message
+2026-01-04T20:58:25+00:00,Test CLI,test@example.com,Général,Ceci est un test envoyé depuis le script CLI.
+2026-01-05 22:46:48,"diego Matondo, Diego Manzueto",diegomatondo13@gmail.com,Teste,Bonjour monsieur
+2026-01-05 23:36:28,Koka,diegomatondo13@gmail.com,verbe,je suis là pou toi

@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "title": "Dashboard Power BI – Analyse de performance",
+      "slug": "powerbi-dashboard",
+      "category": "Business Intelligence",
+      "technologies": ["Power BI","DAX","Excel"],
+      "excerpt": "Tableau de bord interactif pour analyser les performances d'une entreprise de développement de logiciels.",
+      "image": "assets/images/projects/powerbi-dashboard.svg"
+    },
+    {
+      "title": "Gestion Pharmaceutique – GestPharmacie",
+      "slug": "gestion-pharmaceutique",
+      "category": "Application de bureau",
+      "technologies": ["C#",".NET"],
+      "excerpt": "Application de gestion opérationnelle et administrative pour pharmacies (produits, ventes, utilisateurs).",
+      "image": "assets/images/projects/gestion-pharmaceutique.png"
+    },
+    {
+      "title": "Site vitrine – Chukutaya Construction",
+      "slug": "site-vitrine-de-chukutaya-construction",
+      "category": "Site web",
+      "technologies": ["PHP","HTML","CSS","JavaScript"],
+      "excerpt": "Site vitrine pour une entreprise de construction BTP, présentant services et réalisations.",
+      "image": "assets/images/projects/site-chukutaya.png"
+    },
+    {
+      "title": "git-test – Démo HTML",
+      "slug": "git-test",
+      "category": "Prototype",
+      "technologies": ["HTML"],
+      "excerpt": "Petite démonstration / test pour vérifier des concepts HTML.",
+      "image": "assets/images/projects/git-test.png"
+    }
+  ]
+}
